@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Travel Planner 
+title: Sunken Titanic 
 search_exclude: true
-description: Login and explore our social media hub for everything DNHS 
+description: 
 hide: true
 menu: nav/home.html
 ---
