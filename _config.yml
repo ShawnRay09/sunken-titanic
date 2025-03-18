@@ -2,7 +2,7 @@ title: Sunken Titanic
 description: 
 owner_name: Shawn Ray
 github_username: ShawnRay09
-github_repo: "sunken_titanic" 
+github_repo: "sunken-titanic" 
 baseurl: "/sunken_titanic"
 future: true
 remote_theme: jekyll/minima
