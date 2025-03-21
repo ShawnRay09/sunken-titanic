@@ -138,7 +138,7 @@ The chatbot learns bias over time from user interactions, rather than being bias
 
 ---
 
-(Insert Bias Fixes here)
+(Insert Bias Mitigations here)
 
 | **MCQ Topic** | **Connection to Computing Bias** |
 |-----------|---------------------------------|
