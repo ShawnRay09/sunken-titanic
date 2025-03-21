@@ -75,6 +75,29 @@ Computing bias occurs when computer systems systematically and unfairly discrimi
      - Search engines amplifying biased content over time.
 
 ---
+## **Solutions to Combat Biases**
+#### **Pre-existing Social Biases**
+
+**Bias Awareness Training**: 
+- Train developers, engineers, and data scientists to recognize and understand social biases so they can mitigate them during the design and data collection process.
+- Inclusive Design: Incorporate diverse perspectives during the design and development of algorithms to ensure that systems reflect multiple viewpoints and experiences. This could involve creating advisory boards or seeking feedback from underrepresented communities.
+- Bias Mitigation in Data Collection: Regularly examine and adjust the sources of data to ensure that it does not reflect harmful stereotypes. This could mean auditing data for biases in terms of gender, race, or other social factors, and balancing it accordingly.
+
+#### **Technical Bias**
+
+**Transparent Algorithms** : 
+- Implement algorithms that are explainable and transparent. This helps ensure that developers and users can understand how decisions are made and identify where bias might be creeping in.
+- Bias Testing and Auditing: Implement continuous testing and auditing to ensure that algorithms are fair across various demographics and that the system doesn't favor certain groups over others due to technical choices.
+- Improved Evaluation Metrics: Use fairness-aware metrics, such as statistical parity or equalized odds, when evaluating the performance of a model to ensure that no group is disproportionately disadvantaged by the technical decisions made.
+
+#### **Emergent Social Bias**
+
+**Human Oversight and Feedback Loops**: 
+- Include human oversight mechanisms where AI systems or platforms can be monitored, and biased outputs can be corrected in real-time. Feedback loops from diverse user groups can help correct emergent biases.
+- User Moderation and Controls: Implement strong moderation controls in social platforms, allowing users to flag harmful or biased content. This will help reduce the amplification of harmful behaviors and ideas.
+- Algorithmic Accountability: Ensure that algorithms adapt to evolving social norms and values, so as biases emerge, they can be corrected. Employ systems of continuous learning that adjust based on changing cultural understandings and feedback.
+
+---
 
 #### **Question 1:**  ❓
 A company implements an AI hiring system that unintentionally prefers male candidates over female candidates because it was trained on past hiring data from a male-dominated industry. What type of bias is this an example of?  
