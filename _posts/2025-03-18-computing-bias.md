@@ -5,32 +5,53 @@ title: Computing Bias Lesson
 description: By Shawn Ray, Jonah Luo, Tarun Rayavarapu, Arya Savlani
 ---
 
-# Computing Bias Lesson
+# Computing Bias Lesson 🧠
 
-## Introduction
+## Introduction 📌
 
 Computing bias occurs when computer systems systematically and unfairly discriminate against certain groups. Bias in computing can reinforce social inequalities, create unfair advantages, and lead to real-world harm. This lesson explores how bias emerges, real-world examples, and strategies for mitigation.
 
 ---
 
-## What is Computing Bias?
+## What is Computing Bias? 
 
 > "We can say that a computer system is biased if it both unfairly and systematically discriminates against one group in favor of another." – *Nissenbaum et al.* ([Cornell Paper](https://nissenbaum.tech.cornell.edu/papers/Discerning%20Bias%20in%20Computer%20Systems.pdf))
 
-### Doctor or Nurse Drawings
+<h2>Doctor or Nurse Drawings 🎨</h2> 
 
-<!-- HTML block for interactivity -->
-<button onclick="assignRole()">Get Role</button>
+<button id="roleButton">Get Role</button>
 <p id="result"></p>
 
+<style>
+    button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    #result {
+        margin-top: 20px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #333;
+    }
+</style>
+
 <script>
-    function assignRole() {
+    document.getElementById("roleButton").addEventListener("click", function() {
         let role = Math.random() < 0.5 ? "Doctor" : "Nurse";
         document.getElementById("result").innerText = "Draw a: " + role;
-    }
+    });
 </script>
 
-### **Types of Bias in Computing**
+### **Types of Bias in Computing** 🔍
 
 1. **Pre-existing Social Bias**
    - Originates from societal norms, stereotypes, or historical inequalities.
@@ -55,7 +76,43 @@ Computing bias occurs when computer systems systematically and unfairly discrimi
 
 ---
 
-## Real-World Examples of Computing Bias
+#### **Question 1:**  ❓
+A company implements an AI hiring system that unintentionally prefers male candidates over female candidates because it was trained on past hiring data from a male-dominated industry. What type of bias is this an example of?  
+
+- A) Pre-existing Social Bias  
+- B) Technical Bias  
+- C) Emergent Social Bias  
+- D) No Bias Present  
+
+<details>  
+<summary>Reveal Answer</summary>  
+
+Answer: A) Pre-existing Social Bias  
+
+This bias originates from societal inequalities reflected in historical hiring data.  
+</details>  
+
+---  
+
+#### **Question 2:**  ❓
+An AI-powered chatbot gradually starts using offensive language after interacting with online users who repeatedly expose it to toxic content. What type of bias does this represent?  
+
+- A) Pre-existing Social Bias  
+- B) Technical Bias  
+- C) Emergent Social Bias  
+- D) Algorithmic Efficiency Bias  
+
+<details>  
+<summary>Reveal Answer</summary>  
+
+Answer: C) Emergent Social Bias  
+
+The chatbot learns bias over time from user interactions, rather than being biased from the start.  
+</details>
+
+---
+
+## Real-World Examples of Computing Bias 🌍
 
 ### **Amazon's AI Hiring Tool**
 - **Bias Type:** Pre-existing Social Bias  
