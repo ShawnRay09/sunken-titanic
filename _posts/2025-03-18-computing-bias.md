@@ -80,3 +80,13 @@ Computing bias occurs when computer systems systematically and unfairly discrimi
 🔗 [Read More](https://fortune.com/longform/ai-bias-problem)
 
 ---
+
+(Insert Bias Fixes here)
+
+| **MCQ Topic** | **Connection to Computing Bias** |
+|-----------|---------------------------------|
+| **2.3: Extracting Information from Data** | Bias can emerge when datasets are skewed or incomplete, leading to biased AI predictions and decisions. |
+| **3.12: Calling Procedures** | If biased functions or APIs are repeatedly used, the bias spreads throughout a system, such as facial recognition errors. |
+| **3.17: Algorithmic Efficiency** | Some efficient algorithms may prioritize speed over fairness, reinforcing biases in search engines or recommendation systems. |
+| **5.1: Beneficial and Harmful Effects** | Biased algorithms can offer personalized recommendations (benefit) but may also create filter bubbles and reinforce stereotypes (harm). |
+| **5.2: Digital Divide** | Bias in computing can worsen accessibility gaps, such as voice recognition software struggling with non-native accents. |
